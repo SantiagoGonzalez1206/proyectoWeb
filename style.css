@@ -11,6 +11,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .head__text{
@@ -19,6 +20,10 @@ body{
     margin-left: 60px;
     width: 35%;
     height: 6vh;
+}
+
+.head__text h2{
+    margin-top: 1px;
 }
 
 .head__menu{
@@ -32,9 +37,13 @@ body{
     height: 6vh;
 }
 
+.item p{
+    margin: 1px;
+}
 
 .item:hover{
     border: 1px solid #087f5b;
+    height: 3vh;
 }
 
 
@@ -67,7 +76,8 @@ body{
     background: var(--color-1);
     color: white;
     border: 0px;
-    width: 20%;
+    width: 25%;
+    height: 4vh;
     font-size: 16px;
     letter-spacing: .5px;
 }
@@ -87,8 +97,8 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 13%;
+    margin-left: 13%;
 }
 .aboutUs__img {
     width: 800px;
@@ -116,6 +126,7 @@ body{
     width: 600px;
     height: 5vh;
     margin-top: 15px;
+    margin-bottom: 75px;
 }
 
 .aboutUs__text p{
@@ -162,8 +173,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 13%;
+    margin-right: 13%;
+    gap: 20px;
 }
 .container{
     display: flex;
@@ -251,4 +263,36 @@ body{
 
 .announcement h1{
     font-size: 40px;
+}
+
+footer{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.bar{
+    background: var(--color-1);
+    width: 50px;
+    height: .2vh;
+    color: #1e1d2b;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer p{
+    margin-bottom: -15px;
 }
