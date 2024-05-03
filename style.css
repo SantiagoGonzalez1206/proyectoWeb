@@ -1,0 +1,135 @@
+@import url(variables.css);
+
+
+
+body{
+    background: #1e1d2b;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head__text{
+    color: var(--color-1);
+    font-size: 30px;
+    margin-left: 60px;
+    width: 35%;
+    height: 6vh;
+}
+
+.head__menu{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-right: 60px;
+    width: 35%;
+    height: 6vh;
+}
+
+
+.item:hover{
+    border: 1px solid #087f5b;
+}
+
+
+.first__message {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.message__text {
+    width: 50%;
+}
+
+.message__text h1{
+    color: var(--color-1);
+    font-size: 6rem;
+    width: 600px;
+    height: 5vh;
+}
+
+.message__text p{
+    color: white;
+    font-size: 35px;
+}
+
+.message__text button{
+    background: var(--color-1);
+    color: white;
+    border: 0px;
+    width: 20%;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+.message__img {
+    width: 50%;
+    height: 60vh;
+}
+
+.message__img img{
+    width: 90%;
+}
+
+.aboutUs {
+    display: flex;
+    margin-top: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.aboutUs__img {
+    width: 800px;
+    height: 60vh;
+}
+
+.aboutUs__img img{
+    width: 600px;
+}
+
+.aboutUs__text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 140px;
+}
+.aboutUs__text small{
+    color: var(--color-1);
+    font-size: 20px;
+}
+
+.aboutUs__text h1{
+    color: white;
+    font-size: 3rem;
+    width: 600px;
+    height: 5vh;
+    margin-top: 15px;
+}
+
+.aboutUs__text p{
+    color: white;
+    font-size: 27px;
+    margin-top: 40px;
+}
+
+
+.aboutUs__text button{
+    background: var(--color-1);
+    color: white;
+    border: 0px;
+    width: 170px;
+    height: 4vh;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
