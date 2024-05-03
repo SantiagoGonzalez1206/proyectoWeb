@@ -10,3 +10,7 @@
     src: url(storage/font/Poppins/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Poppins-light";
+    src: url(storage/font/Poppins/Poppins-ExtraLight.ttf);
+}
