@@ -4,6 +4,7 @@
 
 body{
     background: #1e1d2b;
+    font-family: "Poppins";
 }
 
 .head{
@@ -128,8 +129,8 @@ body{
     background: var(--color-1);
     color: white;
     border: 0px;
-    width: 170px;
-    height: 4vh;
+    width: 160px;
+    height: 3.5vh;
     font-size: 16px;
     letter-spacing: .5px;
 }
